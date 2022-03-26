@@ -7,7 +7,7 @@ Node
 - process
 - Command line arguments
 - node local packages
-- npm 
+- npm and project.json
 - File operation
 - Connection with a DB
 - Create a server
@@ -44,3 +44,17 @@ global vs window
 #################################
 window is the global object in browser for JS
 global is the global object in Nodejs for JS
+
+
+
+local libraries
+#####################
+os, fs
+
+
+npm (node package manager) and project.json
+###########################################
+
+Official doc for npm commands: https://docs.npmjs.com/cli/v6/commands
+
+npm init
