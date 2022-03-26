@@ -1,0 +1,46 @@
+Node
+- Installation
+- History
+- Why Nodejs?
+- Architecture of Nodejs. It's components
+- global vs window
+- process
+- Command line arguments
+- node local packages
+- npm 
+- File operation
+- Connection with a DB
+- Create a server
+- EventLoop
+
+
+
+2008 - The biggest event happened for JavaScript
+###########################################
+Chrome browser was launched (V8 engine)
+Before V8 JS was 450 times slower
+
+2009 - Nodejs was formed
+##########################################
+v8 was open sourced and Ryan Dahl made some libraries on top of v8 and created Node
+Now it was possible to exeute JS on the server side (on your computer without browser)
+
+
+Why Nodejs?
+######################################
+- You do front end development with JS
+- You do backend development with JS
+- JSON was built on JS 
+- MongoDB with JS
+
+
+Building blocks of Nodejs
+######################################
+Dependencies: https://nodejs.org/en/docs/meta/topics/dependencies/
+Nodesj = V8 + libuv
+
+
+global vs window
+#################################
+window is the global object in browser for JS
+global is the global object in Nodejs for JS
