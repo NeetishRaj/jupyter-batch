@@ -4,7 +4,7 @@ const { mainModule } = require("process");
 
 /**
  * 
- * Create a nodejs script to automate creation of a front end project folder.
+ * Create a nodejs script to automate creation of a front end project folder called website.
  * 
  * 
  * 1. Create a folder named 'website' or take input from command line arguments.

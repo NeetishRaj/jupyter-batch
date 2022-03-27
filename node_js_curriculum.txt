@@ -1,4 +1,6 @@
 Node
+SESSION 1:
+
 - Installation
 - History
 - Why Nodejs?
@@ -8,10 +10,18 @@ Node
 - Command line arguments
 - node local packages
 - npm and project.json
-- File operation
-- Connection with a DB
-- Create a server
+
+SESSION 2:
+
+- Discussion on Project 1
+- Understanding module export/import
+- File operations
+- http module, ports and a simple http server
 - EventLoop
+- CRUD API server using json-server and using Postman
+- HTTP body, headers and query strings
+- Project 2 (Create a nodejs server on user data)
+- Streams and Buffers, RedStream, WriteStream, Pipe
 
 
 
