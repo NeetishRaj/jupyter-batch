@@ -1,5 +1,8 @@
 const fs = require('fs');
 
+const folder_name = process.argv[2] || 'website';
+// console.log(folder_name);
+
 const css_text = `
 html, body {
     margin: 0;
@@ -37,32 +40,32 @@ const html_text = `
 
 // create a website folder
 
-fs.mkdir('website', (err) => {
+fs.mkdir(folder_name, (err) => {
     if(err)
         console.log("Error in creating 'website' folder");
 
     
     // Create css folder then main.css file
-    fs.mkdir('website/css', (err) => {
+    fs.mkdir(`${folder_name}/css`, (err) => {
         if(err)
             console.log("Error in creating css folder");
     
-        const writer = fs.createWriteStream('website/css/main.css');
+        const writer = fs.createWriteStream(`${folder_name}/css/main.css`);
         writer.write(css_text);
     });
 
 
     // create js folder then index.js file
-    fs.mkdir('website/js', (err) => {
+    fs.mkdir(`${folder_name}/js`, (err) => {
         if(err)
             console.log("Error in creating css folder");
     
-        const writer = fs.createWriteStream('website/js/index.js');
+        const writer = fs.createWriteStream(`${folder_name}/js/index.js`);
         writer.write(js_text);
     }); 
 
     // create index.html file
-    fs.createWriteStream('website/index.html').write(html_text);
+    fs.createWriteStream(`${folder_name}/index.html`).write(html_text);
 })
 
 
