@@ -13,7 +13,7 @@ SESSION 1:
 
 SESSION 2:
 
-- Discussion on Project 1
+- Discussion on Project 1, quiz
 - Understanding module export/import
 - File operations
 - HTTP,  body, headers and query strings
@@ -21,7 +21,13 @@ SESSION 2:
 - EventLoop
 - CRUD API server using json-server and using Postman
 - Project 2 (Create a nodejs server on user data)
+
+
+SESSION 3:
+- Quick Q&A
+- Node REPL
 - Streams and Buffers, RedStream, WriteStream, Pipe
+- Project 2 solution
 
 
 

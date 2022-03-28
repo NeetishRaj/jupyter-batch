@@ -1,0 +1,14 @@
+// Do you watch Netflix?
+
+// They say that netflix is Stream videos || video streaming platform
+
+// But Back in the days we had 'download videos' || video download platform
+
+// Question: Streaming Vs Download
+
+/**
+ * 
+ * In streaming the video content is downloaded in small chunks and consumed at the same time.
+ * 
+ * But in download we wait for the full video to download before consumption.
+ */
